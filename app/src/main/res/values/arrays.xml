@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Window measurement form-->
+    <!--(1)-->
+    <string-array name="room_location_array">
+        <item>@string/room_locatoin_living_room</item>
+        <item>@string/room_locatoin_master_bedroom</item>
+        <item>@string/room_locatoin_master_bath</item>
+        <item>@string/room_locatoin_bath</item>
+        <item>@string/room_locatoin_bedroom</item>
+        <item>@string/room_locatoin_kitchen</item>
+        <item>@string/room_locatoin_garage</item>
+        <item>@string/room_locatoin_other</item>
+    </string-array>
+    <!--(2)-->
+    <string-array name="quantity_of_this_size_array">
+        <item>@string/quantity_of_size_1</item>
+        <item>@string/quantity_of_size_2</item>
+        <item>@string/quantity_of_size_3</item>
+        <item>@string/quantity_of_size_4</item>
+        <item>@string/quantity_of_size_5</item>
+        <item>@string/quantity_of_size_6</item>
+        <item>@string/quantity_of_size_7</item>
+        <item>@string/quantity_of_size_8</item>
+        <item>@string/quantity_of_size_9</item>
+    </string-array>
+    <!--(3)-->
+    <string-array name="exact_dimension_array">
+        <item>@string/exact_dimension_rough_opening</item>
+        <item>@string/exact_dimension_existing_window</item>
+        <item>@string/exact_dimension_frame_size</item>
+    </string-array>
+    <!--(7)-->
+    <string-array name="window_need_to_meet_code_array">
+        <item>@string/window_need_to_meet_code_yes</item>
+        <item>@string/window_need_to_meet_code_no</item>
+    </string-array>
+    <!--(8)-->
+    <string-array name="safety_glazing_required_array">
+        <item>@string/safety_glazing_required_yes</item>
+        <item>@string/safety_glazing_required_no</item>
+    </string-array>
+    <!--(11)-->
+    <string-array name="style_of_the_window_desired_array">
+        <item>@string/style_of_the_window_desired_picture</item>
+        <item>@string/style_of_the_window_desired_slider</item>
+        <item>@string/style_of_the_window_desired_casement</item>
+        <item>@string/style_of_the_window_desired_awning</item>
+        <item>@string/style_of_the_window_desired_sliding_hung</item>
+        <item>@string/style_of_the_window_desired_double_hung</item>
+        <item>@string/style_of_the_window_desired_bay</item>
+        <item>@string/style_of_the_window_desired_garden</item>
+    </string-array>
+    <!--Custom window-->
+    <string-array name="custom_window_array">
+        <item>@string/custom_window_trap</item>
+        <item>@string/custom_window_bay</item>
+        <item>@string/custom_window_garden</item>
+    </string-array>
+
+    <!--Door measurement form-->
+
+    <!--(1)-->
+    <string-array name="is_this_installation_array">
+        <item>@string/is_this_installation_replacement</item>
+        <item>@string/is_this_installation_new</item>
+    </string-array>
+
+    <!--(2)-->
+    <string-array name="door_exact_dimensions_array">
+        <item>@string/door_exact_dimensions_rough_opening</item>
+        <item>@string/door_exact_dimensions_existing_door</item>
+        <item>@string/door_exact_dimensions_finished_opening</item>
+    </string-array>
+
+    <!--(5)-->
+    <string-array name="swing_of_Door_array">
+        <item>@string/swing_of_door_right_hand</item>
+        <item>@string/swing_of_door_left_hand</item>
+        <item>@string/swing_of_door_double_pull_out</item>
+    </string-array>
+
+    <!--(6)-->
+    <string-array name="style_of_door_array">
+        <item>@string/style_of_door_single</item>
+        <item>@string/style_of_door_bi_fold</item>
+        <item>@string/style_of_door_bi_pass</item>
+        <item>@string/style_of_door_pocket</item>
+        <item>@string/style_of_door_slab</item>
+        <item>@string/style_of_door_pre_hung</item>
+    </string-array>
+
+    <!--(7)-->
+    <string-array name="door_additional_items_array">
+        <item>@string/door_additional_items_locker</item>
+        <item>@string/door_additional_items_interior_trim</item>
+        <item>@string/door_additional_items_jamb_extensions</item>
+    </string-array>
+
+    <!--lead testing-->
+    <string-array name="door_was_lead_testing_performed_array">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+
+</resources>

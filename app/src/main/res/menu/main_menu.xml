@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/window_measurement_form_id"
+        android:title="@string/window_measurement_form_menu"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/door_measurement_form_id"
+        android:title="@string/door_measurement_form_menu"
+        android:orderInCategory="2"
+        />
+</menu>

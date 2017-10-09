@@ -1,3 +1,158 @@
 <resources>
     <string name="app_name">PRP Install</string>
+    <!--main menu-->
+    <string name="window_measurement_form_menu">Window Measurement Form</string>
+    <string name="door_measurement_form_menu">Door Measurement Form</string>
+
+    <!--window and door activities labels-->
+    <string name="window_measurement_form_label">Window Measurement Form</string>
+    <string name="door_measurement_form_label">Door Measurement Form</string>
+
+    <!--Window measurement form-->
+    <!--(1)-->
+    <string name="room_location_label">Room Location</string>
+    <string name="room_locatoin_living_room">Living Room</string>
+    <string name="room_locatoin_master_bedroom">Master Bedroom</string>
+    <string name="room_locatoin_master_bath">Master Bath</string>
+    <string name="room_locatoin_bath">Bath</string>
+    <string name="room_locatoin_bedroom">Bedroom</string>
+    <string name="room_locatoin_kitchen">Kitchen</string>
+    <string name="room_locatoin_garage">Garage</string>
+    <string name="room_locatoin_other">Other(Custom text)</string>
+    <!--(2)-->
+    <string name="quantity_of_size_label">Quantity of this size and style window needed</string>
+    <string name="quantity_of_size_1">1</string>
+    <string name="quantity_of_size_2">2</string>
+    <string name="quantity_of_size_3">3</string>
+    <string name="quantity_of_size_4">4</string>
+    <string name="quantity_of_size_5">5</string>
+    <string name="quantity_of_size_6">6</string>
+    <string name="quantity_of_size_7">7</string>
+    <string name="quantity_of_size_8">8</string>
+    <string name="quantity_of_size_9">9</string>
+    <!--(3)-->
+    <string name="exact_dimension_label">Exact dimension(if know) are for</string>
+    <string name="exact_dimension_rough_opening">Rough opening</string>
+    <string name="exact_dimension_existing_window">Existing window</string>
+    <string name="exact_dimension_frame_size">Frame size</string>
+    <!--(4)-->
+    <string name="width_label">Width</string>
+    <string name="height_label">Height</string>
+    <!--(5)-->
+    <string name="jamb_thickness_label">Jamb Thickness</string>
+    <!--(6)-->
+    <string name="sill_height_label">Sill height above finished floor</string>
+    <!--(7)-->
+    <string name="window_need_to_meet_code_for_egress_label">Does the window need to meet code for egress?</string>
+    <string name="window_need_to_meet_code_yes">Yes</string>
+    <string name="window_need_to_meet_code_no">No</string>
+    <!--(8)-->
+    <string name="safety_glazing_required_label">Is safety glazing required for this application?</string>
+    <string name="safety_glazing_required_yes">Yes</string>
+    <string name="safety_glazing_required_no">No</string>
+    <!--(9)-->
+    <string name="exterior_finish_label">Exterior finish is on the house?</string>
+    <!--(10)-->
+    <string name="interior_finish_label">Interior finish is within the house?</string>
+    <!--(11)-->
+    <string name="style_of_the_window_desired_label">Style of the window desired</string>
+    <string name="style_of_the_window_desired_picture">Picture</string>
+    <string name="style_of_the_window_desired_slider">Slider</string>
+    <string name="style_of_the_window_desired_casement">Casement</string>
+    <string name="style_of_the_window_desired_awning">Awning</string>
+    <string name="style_of_the_window_desired_sliding_hung">Sliding Hung</string>
+    <string name="style_of_the_window_desired_double_hung">Double Hung</string>
+    <string name="style_of_the_window_desired_bay">Bay</string>
+    <string name="style_of_the_window_desired_garden">Garden</string>
+    <!--(12)-->
+    <string name="height_to_top_label">Height to top of window from the ground</string>
+    <!--(13)-->
+    <string name="fall_protection_label">Fall protection</string>
+    <!--(14)-->
+    <string name="additional_items_label">Additional items</string>
+    <string name="additional_items_ext_trim">Ext. Trim</string>
+    <string name="additional_items_int_trim">Int. Trim</string>
+    <string name="additional_items_jamb_material">Jamb Material</string>
+
+    <!--Additional Work Required-->
+    <string name="additional_work_required_label">Additional Work Required</string>
+    <string name="delivery_label">Delivery</string>
+    <string name="window_size_up_to_101_ui_label">Window size up to 101 U.I</string>
+    <string name="window_size_up_to_132_ui_label">Window size up to 132 U.I</string>
+    <string name="oversize_larger_than_132_ui_label">Oversize larger than 132 U.I</string>
+
+    <string name="custom_window_label">Custom window</string>
+    <string name="custom_window_trap">Trap</string>
+    <string name="custom_window_bay">Bay</string>
+    <string name="custom_window_garden">Garden</string>
+
+    <string name="frame_removal_label">Frame removal</string>
+    <string name="exterior_trim_label">Exterior trim</string>
+    <string name="rip_and_install_jamb_extension_label">Rip and install jamb extension for vinyl window</string>
+    <string name="drop_still_to_meet_egress_label">Drop still to meet egress</string>
+    <string name="dump_fee_20_per_window_label">Dump fee $20 per window up to 10 windows</string>
+
+    <string name="lead_testing_label">Lead Testing</string>
+    <string name="was_lead_testing_performed_label">Was lead testing performed at the address where this measure was done?</string>
+    <string name="year_built_in_label">Year built in</string>
+    <string name="custom_labor_cost_label">CUSTOM LABOR COST</string>
+    <string name="attention_text">
+        ATTENTION: In the event at the time of install, the home owner is responsible of if installers come to
+        unforseen electrical, plumbing, or any other modifications needed for the job to be complete
+        correctly. Home owner is responsible for the removal and reinstallation of window curtains,
+        shades, blinds, etc.
+    </string>
+
+    <!--Door measurement form-->
+    <!--(1)-->
+    <string name="is_this_installation_label">Is this installation a</string>
+    <string name="is_this_installation_replacement">Replacement</string>
+    <string name="is_this_installation_new">New</string>
+    <string name="location_label">Location</string>
+    <!--(2)-->
+    <string name="door_exact_dimensions_label">Exact dimensions(if known) are for</string>
+    <string name="door_exact_dimensions_rough_opening">Rough opening</string>
+    <string name="door_exact_dimensions_existing_door">Existing door</string>
+    <string name="door_exact_dimensions_finished_opening">Finished opening</string>
+    <!--(3)-->
+    <string name="door_width">Width</string>
+    <string name="door_height">Height</string>
+    <string name="door_thickness">Door thickness</string>
+    <!--(4)-->
+    <string name="thickness_in_inches_label">Thickness in inches of</string>
+    <string name="thickness_in_inches_jamb">Jamb</string>
+    <string name="thickness_in_inches_wall">Wall</string>
+    <!--(5)-->
+    <string name="swing_of_door_label">Swing of door</string>
+    <string name="swing_of_door_right_hand">Right hand</string>
+    <string name="swing_of_door_left_hand">Left hand</string>
+    <string name="swing_of_door_double_pull_out">Double pull out</string>
+    <!--(6)-->
+    <string name="style_of_door_label">Style of door</string>
+    <string name="style_of_door_single">Single</string>
+    <string name="style_of_door_bi_fold">Bi&#8211;Fold</string>
+    <string name="style_of_door_bi_pass">Bi-Pass</string>
+    <string name="style_of_door_pocket">Pocket</string>
+    <string name="style_of_door_slab">Slab</string>
+    <string name="style_of_door_pre_hung">Pre&#8211;Hung</string>
+    <!--(7)-->
+    <string name="door_additional_items_label">Additional items that customer will need</string>
+    <string name="door_additional_items_locker">Locker</string>
+    <string name="door_additional_items_interior_trim">Interior Trim</string>
+    <string name="door_additional_items_jamb_extensions">Jamb Extensions</string>
+    <!--(8)-->
+    <string name="additional_labor_charges_label">Additional labor//Charges</string>
+    <string name="dump_frees_20_per_door_label">Dump frees $20 per door</string>
+
+    <!--Lead Testing-->
+    <string name="door_lead_testing_label">LEAD TESTING</string>
+    <string name="door_was_lead_testing_performed_label">Was lead testing performed at the address where this measure was done?</string>
+    <string name="if_yes_label">If \"Yes\" what year was this property built?</string>
+    <string name="if_no_label">If \"No\" what was the reason(s)</string>
+    <string name="door_note_label">Note</string>
+    <string name="door_note_text">
+        Note: PLEASE EXPLAIN TO CUSTOMER: In the event at the time of install, the home owner is responsible of if installers come to
+        unforseen electrical, plumbing, or any other modifications needed for the job to be complete
+        correctly.
+    </string>
 </resources>
