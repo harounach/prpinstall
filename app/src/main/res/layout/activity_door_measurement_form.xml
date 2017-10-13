@@ -8,7 +8,9 @@
     <ScrollView
         android:id="@+id/door_form_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/row_height"
+        >
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -79,11 +81,10 @@
                         android:text="@string/location_label"
                         />
                     <EditText
+                        android:id="@+id/location_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="textPersonName"
-                        android:focusedByDefault="false"
-                        android:focusable="false"
+
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -125,12 +126,10 @@
                         android:text="@string/door_width"
                         />
                     <EditText
+                        android:id="@+id/door_width_edit_text"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:inputType="number"
-                        android:focusedByDefault="false"
-                        android:focusable="false"
                         />
                     <TextView
                         android:layout_width="0dp"
@@ -139,12 +138,10 @@
                         android:text="@string/door_height"
                         />
                     <EditText
+                        android:id="@+id/door_height_edit_text"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:inputType="number"
-                        android:focusedByDefault="false"
-                        android:focusable="false"
                         />
                     <TextView
                         android:layout_width="0dp"
@@ -153,12 +150,10 @@
                         android:text="@string/door_thickness"
                         />
                     <EditText
+                        android:id="@+id/door_thickness_edit_text"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:inputType="number"
-                        android:focusedByDefault="false"
-                        android:focusable="false"
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -178,6 +173,7 @@
                         android:text="@string/thickness_in_inches_label"
                         />
                     <CheckBox
+                        android:id="@+id/thickness_in_inches_jamb_checkbox"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
@@ -187,14 +183,13 @@
                         android:text="@string/thickness_in_inches_jamb"
                         />
                     <EditText
+                        android:id="@+id/thickness_in_inches_jamb_edit_text"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:inputType="number"
-                        android:focusedByDefault="false"
-                        android:focusable="false"
                         />
                     <CheckBox
+                        android:id="@+id/thickness_in_inches_wall_checkbox"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
@@ -204,12 +199,10 @@
                         android:text="@string/thickness_in_inches_wall"
                         />
                     <EditText
+                        android:id="@+id/thickness_in_inches_wall_edit_text"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:inputType="number"
-                        android:focusedByDefault="false"
-                        android:focusable="false"
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -302,6 +295,7 @@
                         android:orientation="horizontal"
                         >
                         <CheckBox
+                            android:id="@+id/dump_frees_20_per_door_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" />
                         <TextView
@@ -310,9 +304,9 @@
                             android:text="@string/dump_frees_20_per_door_label"
                             />
                         <EditText
+                            android:id="@+id/dump_frees_20_per_door_edit_text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:inputType="number"
                             />
                     </LinearLayout>
                 </LinearLayout>
@@ -347,6 +341,7 @@
                         android:text="DATE:"
                         />
                     <EditText
+                        android:id="@+id/door_was_lead_testing_performed_date_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         />
@@ -362,9 +357,9 @@
                         android:text="@string/if_yes_label"
                         />
                     <EditText
+                        android:id="@+id/if_yes_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="number"
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -378,9 +373,9 @@
                         android:text="@string/if_no_label"
                         />
                     <EditText
+                        android:id="@+id/if_no_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="text"
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -394,9 +389,9 @@
                         android:text="Custom:"
                         />
                     <EditText
+                        android:id="@+id/custom_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="text"
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -410,9 +405,9 @@
                         android:text="Additional Labor Charges:"
                         />
                     <EditText
+                        android:id="@+id/additional_labor_charges_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="number"
                         />
                 </LinearLayout>
                 <TextView
@@ -425,15 +420,49 @@
 
         </RelativeLayout>
     </ScrollView>
-    <android.support.design.widget.FloatingActionButton
+    <ProgressBar
+        android:id="@+id/progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fabSize="normal"
-        app:elevation="6dp"
-        app:pressedTranslationZ="12dp"
-        android:layout_gravity="end|bottom"
-        android:src="@drawable/ic_email_white_24dp"
-        android:layout_margin="0dp"
-        android:onClick="saveFormAsPdf"
+        android:layout_gravity="center"
+        android:visibility="invisible"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        >
+        <TextView
+            android:id="@+id/page_count_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:text="Page Added: 0"
+            />
+        <ImageButton
+            android:id="@+id/send_email_btn"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btns_drawable"
+            android:src="@drawable/ic_email_white_24dp"
+            android:layout_margin="4dp"
+            android:onClick="saveFormAsPdf"
+            android:elevation="2dp"
+            />
+        <ImageButton
+            android:id="@+id/add_new_page_btn"
+            android:text="Add Page"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:src="@drawable/ic_add_white_48dp"
+            android:background="@drawable/btns_drawable"
+            android:elevation="2dp"
+            />
+    </LinearLayout>
 </FrameLayout>

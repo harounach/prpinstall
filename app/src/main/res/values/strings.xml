@@ -8,9 +8,12 @@
     <string name="window_measurement_form_label">Window Measurement Form</string>
     <string name="door_measurement_form_label">Door Measurement Form</string>
 
+    <!--menu stuff-->
+    <string name="add_page_label">Add Page</string>
+
     <!--Window measurement form-->
     <!--(1)-->
-    <string name="room_location_label">Room Location</string>
+    <string name="room_location_label">Room Location:</string>
     <string name="room_locatoin_living_room">Living Room</string>
     <string name="room_locatoin_master_bedroom">Master Bedroom</string>
     <string name="room_locatoin_master_bath">Master Bath</string>
@@ -141,7 +144,7 @@
     <string name="door_additional_items_interior_trim">Interior Trim</string>
     <string name="door_additional_items_jamb_extensions">Jamb Extensions</string>
     <!--(8)-->
-    <string name="additional_labor_charges_label">Additional labor//Charges</string>
+    <string name="additional_labor_charges_label">Additional labor/Charges</string>
     <string name="dump_frees_20_per_door_label">Dump frees $20 per door</string>
 
     <!--Lead Testing-->
